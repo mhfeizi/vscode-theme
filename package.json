@@ -1,0 +1,51 @@
+{
+  "name": "mhfeizi-vscode-theme",
+  "displayName": "mhfeizi theme",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mhfeizi/vscode-theme",
+  "icon": "icon.png",
+  "repository": "https://github.com/mhfeizi/vscode-theme.git",
+  "description": "vscode theme",
+  "author": {
+    "name": "mohammad hosein feizi",
+    "email": "mhfeizi.ir@gmail.com",
+    "url": "https://mhfeizi.ir"
+  },
+  "publisher": "mhfeizi",
+  "private": true,
+  "license": "Read the LICENSE file in the project root for more information.",
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "mhfeizi",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mhfeizi-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "generator-code": "^1.5.5",
+    "vsce": "^1.96.1",
+    "yo": "^4.2.0",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-json": "^3.0.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^7.0.0",
+    "prettier": "^2.3.1",
+    "standard-version": "^9.3.0"
+  },
+  "scripts": {
+    "lint": "eslint --fix --ignore-path .gitignore .",
+    "prepare": "husky install",
+    "release": "standard-version"
+  }
+}

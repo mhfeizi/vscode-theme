@@ -1,0 +1,25 @@
+name: Release THeme
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Setup Node.js
+        uses: actions/setup-node@master
+        with:
+          node-version: 14
+
+      - name: Install vsce
+        run: npm i vsce -g
+
+      - name: Publish
+        run: vsce publish -p ${{ secrets.PUBLISHER_ACCESS_TOKEN }}
