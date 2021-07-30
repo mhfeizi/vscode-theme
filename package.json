@@ -46,6 +46,6 @@
   "scripts": {
     "lint": "eslint --fix --ignore-path .gitignore .",
     "prepare": "husky install",
-    "release": "standard-version"
+    "release": "standard-version && git push --follow-tags origin master"
   }
 }
