@@ -1,8 +1,9 @@
 name: Release THeme
 on:
-  push:
-    branches:
-      - master
+  release:
+    types:
+      - published
+  workflow_dispatch:
 
 jobs:
   release:
