@@ -1,4 +1,4 @@
-name: Release THeme
+name: Release Theme
 on:
   release:
     types:
