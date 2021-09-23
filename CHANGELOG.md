@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/mhfeizi/vscode-theme/compare/v0.0.5...v0.0.6) (2021-09-23)
+
+
+### Bug Fixes
+
+* update ci/cd ([26f9170](https://github.com/mhfeizi/vscode-theme/commit/26f91705b08ada70412d42a68a8c8cf9e3589dc3))
+
 ### [0.0.5](https://github.com/mhfeizi/vscode-theme/compare/v0.0.4...v0.0.5) (2021-09-23)
 
 ### 0.0.4 (2021-09-23)
