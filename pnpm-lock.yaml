@@ -227,7 +227,7 @@ packages:
       ignore: 4.0.6
       import-fresh: 3.3.0
       js-yaml: 3.14.1
-      minimatch: 3.0.4
+      minimatch: 3.1.2
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
@@ -243,7 +243,7 @@ packages:
     dependencies:
       '@humanwhocodes/object-schema': 1.2.0
       debug: 4.3.2
-      minimatch: 3.0.4
+      minimatch: 3.1.2
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -361,7 +361,7 @@ packages:
     dependencies:
       '@npmcli/name-from-folder': 1.0.1
       glob: 7.2.0
-      minimatch: 3.0.4
+      minimatch: 3.1.2
       read-package-json-fast: 2.0.3
     dev: true
 
@@ -1792,7 +1792,7 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       find-up: 3.0.0
-      minimatch: 3.0.4
+      minimatch: 3.1.2
     dev: true
 
   /downgrade-root@1.2.2:
@@ -2363,7 +2363,7 @@ packages:
     dev: true
 
   /fs.realpath@1.0.0:
-    resolution: {integrity: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=}
+    resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
 
   /fullname@4.0.1:
@@ -2541,7 +2541,7 @@ packages:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 3.0.4
+      minimatch: 3.1.2
       once: 1.4.0
       path-is-absolute: 1.0.1
     dev: true
@@ -2866,7 +2866,7 @@ packages:
   /ignore-walk@3.0.4:
     resolution: {integrity: sha512-PY6Ii8o1jMRA1z4F2hRkH/xN59ox43DavKvD3oDpfurRlOJyAHpifIwpbdv1n4jt4ov0jSpw3kQ4GhJnpBL6WQ==}
     dependencies:
-      minimatch: 3.0.4
+      minimatch: 3.1.2
     dev: true
 
   /ignore@4.0.6:
@@ -2914,7 +2914,7 @@ packages:
     dev: true
 
   /inflight@1.0.6:
-    resolution: {integrity: sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk=}
+    resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
     dependencies:
       once: 1.4.0
       wrappy: 1.0.2
@@ -3609,7 +3609,7 @@ packages:
       globby: 11.0.4
       isbinaryfile: 4.0.8
       mem-fs: 2.2.1
-      minimatch: 3.0.4
+      minimatch: 3.1.2
       multimatch: 5.0.0
       normalize-path: 3.0.0
       textextensions: 5.14.0
@@ -3862,7 +3862,7 @@ packages:
       array-differ: 3.0.0
       array-union: 2.1.0
       arrify: 2.0.1
-      minimatch: 3.0.4
+      minimatch: 3.1.2
     dev: true
 
   /mute-stream@0.0.6:
@@ -4107,7 +4107,7 @@ packages:
     dev: true
 
   /once@1.4.0:
-    resolution: {integrity: sha1-WDsap3WWHUsROsF9nFC6753Xa9E=}
+    resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
     dependencies:
       wrappy: 1.0.2
     dev: true
@@ -4483,7 +4483,7 @@ packages:
     dev: true
 
   /path-is-absolute@1.0.1:
-    resolution: {integrity: sha1-F0uSaHNVNP+8es5r9TpanhtcX18=}
+    resolution: {integrity: sha512-AVbw3UJ2e9bq64vSaS9Am0fje1Pa8pbGqTTsmXfaIiMpnr5DlDhfJOuLj9Sf95ZPVDAUerDfEk88MPmPe7UCQg==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -4841,7 +4841,7 @@ packages:
     dev: true
 
   /rechoir@0.6.2:
-    resolution: {integrity: sha1-hSBLVNuoLVdC4oyWdW70OvUOM4Q=}
+    resolution: {integrity: sha512-HFM8rkZ+i3zrV+4LQjwQ0W+ez98pApMGM3HUrN04j3CqzPOzl9nmP15Y8YXNm8QHGv/eacOVEjqhmWpkRV0NAw==}
     engines: {node: '>= 0.10'}
     dependencies:
       resolve: 1.20.0
@@ -5165,8 +5165,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /shelljs@0.8.4:
-    resolution: {integrity: sha512-7gk3UZ9kOfPLIAbslLzyWeGiEqx9e3rxwZM0KE6EL8GlGwjym9Mrlx5/p33bWTu9YG6vcS4MBxYZDHYr5lr8BQ==}
+  /shelljs@0.8.5:
+    resolution: {integrity: sha512-TiwcRcrkhHvbrZbnRcFYMLl30Dfov3HKqzp5tO5b4pt6G/SezKcYhmDg15zXVBswHmctSAQKznqNW2LO5tTDow==}
     engines: {node: '>=4'}
     hasBin: true
     dependencies:
@@ -6102,7 +6102,7 @@ packages:
     dev: true
 
   /wrappy@1.0.2:
-    resolution: {integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=}
+    resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
 
   /write-file-atomic@2.4.3:
@@ -6248,7 +6248,7 @@ packages:
       log-symbols: 4.1.0
       mem-fs: 2.2.1
       mem-fs-editor: 9.3.0(mem-fs@2.2.1)
-      minimatch: 3.0.4
+      minimatch: 3.1.2
       npmlog: 4.1.2
       p-queue: 6.6.2
       pacote: 11.3.5
@@ -6284,7 +6284,7 @@ packages:
       read-pkg-up: 7.0.1
       run-async: 2.4.1
       semver: 7.3.5
-      shelljs: 0.8.4
+      shelljs: 0.8.5
       text-table: 0.2.0
     transitivePeerDependencies:
       - encoding
